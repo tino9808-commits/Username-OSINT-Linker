@@ -14,6 +14,7 @@ It produces evidence, confidence levels, and limitations for human review.
 - Run Maigret from a simple interactive launcher.
 - Generate HTML / CSV / TXT Maigret reports.
 - Read Maigret CSV reports and analyze claimed profile URLs.
+- Document how authorized WPScan, dirmap, and DNSDumpster findings can be used as OSINT leads.
 - Fetch public profile metadata when reachable.
 - Compare username, page titles, profile descriptions, token overlap, and shared links.
 - Produce a Markdown account-linkage report.
@@ -120,3 +121,22 @@ provider, that IP is usually infrastructure provider space, not necessarily the
 site operator's real server or physical location. Treat it as infrastructure
 context, not attribution.
 
+## Authorized Tool Inputs
+
+This project can be extended with results from tools introduced in OSINT and
+cybercrime investigation training, including WPScan, dirmap, and DNSDumpster.
+Those tools should be used only against authorized targets, training labs,
+owned systems, or public passive-information sources.
+
+The recommended workflow is:
+
+1. Collect authorized findings with an external tool.
+2. Save the result as a file, such as CSV, JSON, TXT, or Markdown.
+3. Extract public identifiers from the result, such as usernames, email
+   prefixes, social handles, domains, subdomains, contact names, and crypto
+   addresses.
+4. Feed username-like identifiers into Maigret.
+5. Use Username OSINT Linker to produce an evidence-first linkage report.
+
+See [docs/authorized_tool_inputs_zh.md](docs/authorized_tool_inputs_zh.md) for
+Chinese notes and classroom examples.
