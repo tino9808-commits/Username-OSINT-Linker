@@ -1,0 +1,66 @@
+{
+  "source_csv": "examples\\report_demo.csv",
+  "profiles": [
+    {
+      "username": "therock",
+      "platform": "Instagram",
+      "url": "https://www.instagram.com/therock/",
+      "status": "Claimed",
+      "http_status": "200",
+      "fetched": false,
+      "fetch_error": "",
+      "final_url": "",
+      "title": "",
+      "description": "",
+      "og_title": "",
+      "og_description": "",
+      "canonical": "",
+      "outbound_links": [],
+      "tokens": [
+        "therock"
+      ]
+    },
+    {
+      "username": "therock",
+      "platform": "SoundCloud",
+      "url": "https://soundcloud.com/therock",
+      "status": "Claimed",
+      "http_status": "200",
+      "fetched": false,
+      "fetch_error": "",
+      "final_url": "",
+      "title": "",
+      "description": "",
+      "og_title": "",
+      "og_description": "",
+      "canonical": "",
+      "outbound_links": [],
+      "tokens": [
+        "therock"
+      ]
+    }
+  ],
+  "analysis": {
+    "profile_count": 2,
+    "pair_count": 1,
+    "average_score": 25.0,
+    "max_score": 25,
+    "conclusion": "Limited linkage evidence. Same username alone is not enough for attribution.",
+    "pairs": [
+      {
+        "left": "Instagram",
+        "right": "SoundCloud",
+        "left_url": "https://www.instagram.com/therock/",
+        "right_url": "https://soundcloud.com/therock",
+        "score": 25,
+        "level": "Low",
+        "evidence": [
+          "same username"
+        ],
+        "caution": [
+          "one or both profile pages could not be fetched; confidence is limited"
+        ]
+      }
+    ]
+  }
+}

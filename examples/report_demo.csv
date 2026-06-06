@@ -1,0 +1,4 @@
+username,name,url_main,url_user,exists,http_status
+therock,Instagram,https://www.instagram.com/,https://www.instagram.com/therock/,Claimed,200
+therock,SoundCloud,https://soundcloud.com/,https://soundcloud.com/therock,Claimed,200
+therock,GitHub,https://github.com/,,Unknown,0

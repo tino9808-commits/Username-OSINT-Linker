@@ -1,0 +1,42 @@
+GitHub 上傳步驟
+
+資料夾：
+C:\Users\USER\Downloads\AI AGENTS\Username-OSINT-Linker
+
+一、先設定 Git 身分
+
+git config user.name "你的 GitHub 名稱"
+git config user.email "你的 GitHub email"
+
+二、建立第一個 commit
+
+git add .
+git commit -m "Initial release of Username OSINT Linker"
+
+三、到 GitHub 建立公開 repo
+
+建議 repo 名稱：
+Username-OSINT-Linker
+
+四、連到遠端 repo
+
+git branch -M main
+git remote add origin https://github.com/你的帳號/Username-OSINT-Linker.git
+git push -u origin main
+
+五、建議開兩個 issue
+
+Issue 1:
+Improve public profile metadata extraction
+
+Issue 2:
+Add unit tests for account linkage scoring
+
+六、申請 Codex for Open Source
+
+官方表單：
+https://openai.com/form/codex-for-oss/
+
+申請備忘：
+docs\codex_for_oss_application_notes_zh.md
+

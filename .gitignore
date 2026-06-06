@@ -1,0 +1,19 @@
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Local investigation outputs can contain sensitive or embarrassing usernames.
+reports/
+presentation/
+*.pptx
+*.png
+*.jpg
+*.jpeg
+
+# Local notes created for class delivery.
+*.docx
+*.pdf
+使用說明_先看這個.txt
+作業報告_Maigret_OSINT.txt
+上台講稿_Maigret_OSINT.txt
